@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from './home.module.scss'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-        <div className={styles.content}>
-        <div className={styles.texts}></div>
-        <div className={styles.sideImg}></div>
+    <div>
+        <div className='flex border-2 border-[#000]'>
+            <h3>Hello</h3>
+        <div className=''></div>
+        <div className=''></div>
         </div>
     </div>
   )
