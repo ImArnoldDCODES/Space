@@ -3,8 +3,9 @@ import styles from './home.module.css'
 
 export default function Home() {
   return (
-    <div>
-
+    <div className={styles.container}>
+        <div className={styles.texts}></div>
+        <div className={styles.sideImg}></div>
     </div>
   )
 }
